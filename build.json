@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "HoverThings/FLIP-260-FPV-FRAME-with-aluminum-screws",
+    "esc": "ZTW/Spider-20A",
+    "motor": "Cobra/CM-2208-2000kv",
+    "fc": "ReadyMadeRC/Seriously-Dodo",
+    "prop": [
+      "HQProp/6x4.5-CF-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/nano-tech-1800mah-4S-65~130C-Lipo-Pack"
+    ],
+    "osd": "ReadyToFlyQuads/MinimOSD",
+    "receiver": "FrSky/X8R",
+    "flightcam": "SurveilZone/Sony-960H-CCD-Effio-V-800TVL-Ultra-WDR",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "",
+    "voltagereg": "Pololu/D24V6F5"
+  },
+  "version": 1
 }
